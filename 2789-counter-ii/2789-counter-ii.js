@@ -5,16 +5,13 @@
 var createCounter = function(init) {
     var num = init;
     function increment(init) {
-        console.log(num, "inc")
         return num += 1;
     };
     function decrement(init){
-        console.log(num, "DEC")
         return num -= 1;
     }
     function reset() {
         num = init;
-        console.log(num, "RESET")
         return num;
     }
 
